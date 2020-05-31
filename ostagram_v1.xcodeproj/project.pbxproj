@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FEFEDDB59BD6BB29E705499 /* Pods_ostagram_v1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22CF71924966BA582E3C189 /* Pods_ostagram_v1Tests.framework */; };
 		347C371B24840CAF00139736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C371A24840CAF00139736 /* AppDelegate.swift */; };
 		347C371D24840CAF00139736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C371C24840CAF00139736 /* SceneDelegate.swift */; };
 		347C371F24840CAF00139736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C371E24840CAF00139736 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		347C372A24840CB100139736 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 347C372824840CB100139736 /* LaunchScreen.storyboard */; };
 		347C373524840CB200139736 /* ostagram_v1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C373424840CB200139736 /* ostagram_v1Tests.swift */; };
 		347C374024840CB200139736 /* ostagram_v1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C373F24840CB200139736 /* ostagram_v1UITests.swift */; };
+		4D09C0DBC8337C5AD7068561 /* Pods_ostagram_v1_ostagram_v1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D56F85E3B99CE7FD33B877D2 /* Pods_ostagram_v1_ostagram_v1UITests.framework */; };
+		D89A1128AA856C42E1925B59 /* Pods_ostagram_v1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57B926C78948C04B7F27B83B /* Pods_ostagram_v1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AA85DED55AC9F8152FCB3DF /* Pods-ostagram_v1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ostagram_v1.release.xcconfig"; path = "Target Support Files/Pods-ostagram_v1/Pods-ostagram_v1.release.xcconfig"; sourceTree = "<group>"; };
 		347C371724840CAF00139736 /* ostagram_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ostagram_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		347C371A24840CAF00139736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		347C371C24840CAF00139736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		347C373B24840CB200139736 /* ostagram_v1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ostagram_v1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		347C373F24840CB200139736 /* ostagram_v1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ostagram_v1UITests.swift; sourceTree = "<group>"; };
 		347C374124840CB200139736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5673B557A5E467A35F336F75 /* Pods-ostagram_v1-ostagram_v1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ostagram_v1-ostagram_v1UITests.debug.xcconfig"; path = "Target Support Files/Pods-ostagram_v1-ostagram_v1UITests/Pods-ostagram_v1-ostagram_v1UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		57B926C78948C04B7F27B83B /* Pods_ostagram_v1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ostagram_v1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69FFBE5AA1549F5717DFA865 /* Pods-ostagram_v1-ostagram_v1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ostagram_v1-ostagram_v1UITests.release.xcconfig"; path = "Target Support Files/Pods-ostagram_v1-ostagram_v1UITests/Pods-ostagram_v1-ostagram_v1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		AD5D4C4F2D5CC4E60A921EFB /* Pods-ostagram_v1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ostagram_v1Tests.release.xcconfig"; path = "Target Support Files/Pods-ostagram_v1Tests/Pods-ostagram_v1Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BC526602DD24199D8BA0DED9 /* Pods-ostagram_v1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ostagram_v1.debug.xcconfig"; path = "Target Support Files/Pods-ostagram_v1/Pods-ostagram_v1.debug.xcconfig"; sourceTree = "<group>"; };
+		D4663FF8B2F379DBE9AB4CFE /* Pods-ostagram_v1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ostagram_v1Tests.debug.xcconfig"; path = "Target Support Files/Pods-ostagram_v1Tests/Pods-ostagram_v1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D56F85E3B99CE7FD33B877D2 /* Pods_ostagram_v1_ostagram_v1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ostagram_v1_ostagram_v1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22CF71924966BA582E3C189 /* Pods_ostagram_v1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ostagram_v1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D89A1128AA856C42E1925B59 /* Pods_ostagram_v1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FEFEDDB59BD6BB29E705499 /* Pods_ostagram_v1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D09C0DBC8337C5AD7068561 /* Pods_ostagram_v1_ostagram_v1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				347C373324840CB200139736 /* ostagram_v1Tests */,
 				347C373E24840CB200139736 /* ostagram_v1UITests */,
 				347C371824840CAF00139736 /* Products */,
+				7041A9A044BD94E2AD79E0BC /* Pods */,
+				AE1E8753CEE89E52E7E115EA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -131,6 +148,30 @@
 			path = ostagram_v1UITests;
 			sourceTree = "<group>";
 		};
+		7041A9A044BD94E2AD79E0BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC526602DD24199D8BA0DED9 /* Pods-ostagram_v1.debug.xcconfig */,
+				0AA85DED55AC9F8152FCB3DF /* Pods-ostagram_v1.release.xcconfig */,
+				5673B557A5E467A35F336F75 /* Pods-ostagram_v1-ostagram_v1UITests.debug.xcconfig */,
+				69FFBE5AA1549F5717DFA865 /* Pods-ostagram_v1-ostagram_v1UITests.release.xcconfig */,
+				D4663FF8B2F379DBE9AB4CFE /* Pods-ostagram_v1Tests.debug.xcconfig */,
+				AD5D4C4F2D5CC4E60A921EFB /* Pods-ostagram_v1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AE1E8753CEE89E52E7E115EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57B926C78948C04B7F27B83B /* Pods_ostagram_v1.framework */,
+				D56F85E3B99CE7FD33B877D2 /* Pods_ostagram_v1_ostagram_v1UITests.framework */,
+				F22CF71924966BA582E3C189 /* Pods_ostagram_v1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 347C374424840CB200139736 /* Build configuration list for PBXNativeTarget "ostagram_v1" */;
 			buildPhases = (
+				7221132A465ED97C1512B46C /* [CP] Check Pods Manifest.lock */,
 				347C371324840CAF00139736 /* Sources */,
 				347C371424840CAF00139736 /* Frameworks */,
 				347C371524840CAF00139736 /* Resources */,
+				35D553DF8218B52A96EDDBBB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 347C374724840CB200139736 /* Build configuration list for PBXNativeTarget "ostagram_v1Tests" */;
 			buildPhases = (
+				ACBC6B2990053ACA38842FDA /* [CP] Check Pods Manifest.lock */,
 				347C372C24840CB200139736 /* Sources */,
 				347C372D24840CB200139736 /* Frameworks */,
 				347C372E24840CB200139736 /* Resources */,
@@ -173,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 347C374A24840CB200139736 /* Build configuration list for PBXNativeTarget "ostagram_v1UITests" */;
 			buildPhases = (
+				DAAFE8F81F78AC9605E5ADD1 /* [CP] Check Pods Manifest.lock */,
 				347C373724840CB200139736 /* Sources */,
 				347C373824840CB200139736 /* Frameworks */,
 				347C373924840CB200139736 /* Resources */,
+				3AFC12E3B30D83581F331309 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		35D553DF8218B52A96EDDBBB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ostagram_v1/Pods-ostagram_v1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ostagram_v1/Pods-ostagram_v1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ostagram_v1/Pods-ostagram_v1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AFC12E3B30D83581F331309 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ostagram_v1-ostagram_v1UITests/Pods-ostagram_v1-ostagram_v1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ostagram_v1-ostagram_v1UITests/Pods-ostagram_v1-ostagram_v1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ostagram_v1-ostagram_v1UITests/Pods-ostagram_v1-ostagram_v1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7221132A465ED97C1512B46C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ostagram_v1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACBC6B2990053ACA38842FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ostagram_v1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAAFE8F81F78AC9605E5ADD1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ostagram_v1-ostagram_v1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		347C371324840CAF00139736 /* Sources */ = {
@@ -436,6 +585,7 @@
 		};
 		347C374524840CB200139736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC526602DD24199D8BA0DED9 /* Pods-ostagram_v1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +605,7 @@
 		};
 		347C374624840CB200139736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AA85DED55AC9F8152FCB3DF /* Pods-ostagram_v1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +625,7 @@
 		};
 		347C374824840CB200139736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4663FF8B2F379DBE9AB4CFE /* Pods-ostagram_v1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -496,6 +648,7 @@
 		};
 		347C374924840CB200139736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD5D4C4F2D5CC4E60A921EFB /* Pods-ostagram_v1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +671,7 @@
 		};
 		347C374B24840CB200139736 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5673B557A5E467A35F336F75 /* Pods-ostagram_v1-ostagram_v1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -538,6 +692,7 @@
 		};
 		347C374C24840CB200139736 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69FFBE5AA1549F5717DFA865 /* Pods-ostagram_v1-ostagram_v1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
