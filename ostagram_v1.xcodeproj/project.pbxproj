@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2FEFEDDB59BD6BB29E705499 /* Pods_ostagram_v1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22CF71924966BA582E3C189 /* Pods_ostagram_v1Tests.framework */; };
+		343A73FA25EE6FBB00AE6780 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343A73F925EE6FBB00AE6780 /* FeedViewController.swift */; };
+		343A73FD25EE700000AE6780 /* FeedViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343A73FB25EE700000AE6780 /* FeedViewCell.swift */; };
+		343A73FE25EE700000AE6780 /* FeedViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 343A73FC25EE700000AE6780 /* FeedViewCell.xib */; };
 		347C371B24840CAF00139736 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C371A24840CAF00139736 /* AppDelegate.swift */; };
 		347C371D24840CAF00139736 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C371C24840CAF00139736 /* SceneDelegate.swift */; };
 		347C371F24840CAF00139736 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347C371E24840CAF00139736 /* ViewController.swift */; };
@@ -40,6 +43,9 @@
 
 /* Begin PBXFileReference section */
 		0AA85DED55AC9F8152FCB3DF /* Pods-ostagram_v1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ostagram_v1.release.xcconfig"; path = "Target Support Files/Pods-ostagram_v1/Pods-ostagram_v1.release.xcconfig"; sourceTree = "<group>"; };
+		343A73F925EE6FBB00AE6780 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		343A73FB25EE700000AE6780 /* FeedViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewCell.swift; sourceTree = "<group>"; };
+		343A73FC25EE700000AE6780 /* FeedViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedViewCell.xib; sourceTree = "<group>"; };
 		347C371724840CAF00139736 /* ostagram_v1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ostagram_v1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		347C371A24840CAF00139736 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		347C371C24840CAF00139736 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 				347C372824840CB100139736 /* LaunchScreen.storyboard */,
 				347C372B24840CB100139736 /* Info.plist */,
 				347C372324840CAF00139736 /* ostagram_v1.xcdatamodeld */,
+				343A73F925EE6FBB00AE6780 /* FeedViewController.swift */,
+				343A73FB25EE700000AE6780 /* FeedViewCell.swift */,
+				343A73FC25EE700000AE6780 /* FeedViewCell.xib */,
 			);
 			path = ostagram_v1;
 			sourceTree = "<group>";
@@ -280,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				343A73FE25EE700000AE6780 /* FeedViewCell.xib in Resources */,
 				347C372A24840CB100139736 /* LaunchScreen.storyboard in Resources */,
 				347C372724840CB100139736 /* Assets.xcassets in Resources */,
 				347C372224840CAF00139736 /* Main.storyboard in Resources */,
@@ -412,6 +422,8 @@
 			files = (
 				347C372524840CAF00139736 /* ostagram_v1.xcdatamodeld in Sources */,
 				347C371F24840CAF00139736 /* ViewController.swift in Sources */,
+				343A73FD25EE700000AE6780 /* FeedViewCell.swift in Sources */,
+				343A73FA25EE6FBB00AE6780 /* FeedViewController.swift in Sources */,
 				347C371B24840CAF00139736 /* AppDelegate.swift in Sources */,
 				347C371D24840CAF00139736 /* SceneDelegate.swift in Sources */,
 			);
